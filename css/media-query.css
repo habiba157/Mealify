@@ -1,0 +1,425 @@
+@media screen and (max-width:600px) {
+    .container {
+        width: 100%;
+    }
+    .nav .nav-content .menu-button-container {
+        display: flex;
+        margin-left: auto;
+
+    }
+
+    .nav .nav-content .nav-links {
+        position: absolute;
+        top: 0;
+        color: #7f7f90;
+        margin-top: 50px;
+        left: 0;
+        flex-direction: column;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        margin-left: auto;
+    }
+
+    .nav .nav-content #menu-toggle~.nav-links li {
+        height: 0;
+        margin: 0;
+        padding: 0;
+        border: 0;
+        color: #7f7f90;
+        transition: height 400ms cubic-bezier(0.23, 1, 0.32, 1);
+    }
+
+    .nav .nav-content #menu-toggle:checked~.nav-links li {
+        border: 1px solid #333;
+        height: 2.5em;
+        padding: 0.5em;
+        transition: height 400ms cubic-bezier(0.23, 1, 0.32, 1);
+    }
+
+    .nav .nav-content .nav-links>li {
+        display: flex;
+        justify-content: center;
+        margin: 0;
+        padding: 0.5em 0;
+        width: 100%;
+        color: #7f7f90;
+        background-color: #fff;
+    }
+
+    .nav .nav-content .nav-links li a {
+        padding: 0;
+        right: 0;
+        overflow: hidden;
+
+    }
+
+    .nav .nav-content .nav-links>li:not(:last-child) {
+        border-bottom: 1px solid #444;
+    }
+
+    .nav .nav-content .toggle-label {
+        margin: auto;
+        width: 80px;
+        height: 30px;
+
+    }
+
+    .nav .nav-content .toggle-label #star {
+
+        width: 10px;
+        height: 10px;
+
+    }
+
+    .nav .nav-content .toggle-label #star .star {
+
+        font-size: 20px;
+        line-height: 10px;
+
+    }
+
+    .nav .nav-content .toggle-label #moon {
+
+        width: 10px;
+        height: 10px;
+
+    }
+
+    .nav .nav-content .toggle-label #moon:before {
+
+        width: 10px;
+        height: 10px;
+    }
+
+
+
+    .home .home-content .left h2 {
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .home .home-content .left p {
+        font-size: 12px;
+        text-align: center;
+    }
+
+    .home .home-content .left .btn-group {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .home .home-content .right {
+        width: 20%;
+    }
+
+    .chefs p {
+        font-size: 20px;
+    }
+
+    .chefs .cards {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .chefs .cards .card .card-content h3 {
+        font-size: 15px;
+    }
+
+    .chefs .cards .card .card-image .wave {
+        bottom: -20px;
+        background-image: none;
+    }
+
+    .gallery p {
+        font-size: 20px;
+    }
+
+    .gallery .photos {
+        flex-direction: column;
+        align-items: center;
+        margin: auto;
+    }
+
+    .gallery .photos .column .photo {
+        width: 70%;
+    }
+
+    .gallery .photos .column .layer h2 {
+        font-size: 16px;
+    }
+
+    .gallery .photos .column .layer p {
+        font-size: 12px;
+    }
+
+    .contact p {
+        font-size: 20px;
+    }
+
+    .contact .details {
+        flex-direction: column;
+        align-items: center;
+
+
+    }
+
+    .contact .details>div h3 {
+        font-size: 12px;
+    }
+
+    .contact .details>div p {
+        font-size: 10px;
+    }
+
+    .contact .details>div a {
+        font-size: 10px;
+    }
+
+    .contact form .input-group {
+        flex-direction: column;
+    }
+
+    .footer .container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer .container :is(.about, .contact-details) {
+        width: calc(calc(100% - var(--gap) * 2) / 2);
+
+    }
+
+    .footer .about .logo {
+        font-size: 15px;
+    }
+
+    .footer .about .social-links {
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 5px;
+    }
+
+    .footer .subscription .subscription-group {
+        flex-direction: column;
+    }
+
+    .footer .subscription .quick-links ul {
+        flex-direction: column
+    }
+
+    .footer .contact-details {
+        flex-direction: column;
+    }
+}
+
+@media screen and (min-width:601px) and (max-width:992px) {
+    .container {
+        width: 100%;
+    }
+    .nav .nav-content .menu-button-container {
+        display: flex;
+        margin-left: auto;
+
+    }
+
+    .nav .nav-content .nav-links {
+        position: absolute;
+        top: 0;
+        color: #7f7f90;
+        margin-top: 50px;
+        left: 0;
+        flex-direction: column;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        margin-left: auto;
+    }
+
+    .nav .nav-content #menu-toggle~.nav-links li {
+        height: 0;
+        margin: 0;
+        padding: 0;
+        border: 0;
+        color: #7f7f90;
+        transition: height 400ms cubic-bezier(0.23, 1, 0.32, 1);
+    }
+
+    .nav .nav-content #menu-toggle:checked~.nav-links li {
+        border: 1px solid #333;
+        height: 2.5em;
+        padding: 0.5em;
+        transition: height 400ms cubic-bezier(0.23, 1, 0.32, 1);
+    }
+
+    .nav .nav-content .nav-links>li {
+        display: flex;
+        justify-content: center;
+        margin: 0;
+        padding: 0.5em 0;
+        width: 100%;
+        color: #7f7f90;
+        background-color: #fff;
+    }
+
+    .nav .nav-content .nav-links li a {
+        padding: 0;
+        right: 0;
+        overflow: hidden;
+
+    }
+
+    .nav .nav-content .nav-links>li:not(:last-child) {
+        border-bottom: 1px solid #444;
+    }
+
+    .nav .nav-content .toggle-label {
+        margin: auto;
+        width: 80px;
+        height: 30px;
+
+    }
+
+    .nav .nav-content .toggle-label #star {
+
+        width: 10px;
+        height: 10px;
+
+    }
+
+    .nav .nav-content .toggle-label #star .star {
+
+        font-size: 20px;
+        line-height: 10px;
+
+    }
+
+    .nav .nav-content .toggle-label #moon {
+
+        width: 10px;
+        height: 10px;
+
+    }
+
+    .nav .nav-content .toggle-label #moon:before {
+
+        width: 10px;
+        height: 10px;
+    }
+
+
+
+    .home .home-content .left h2 {
+        font-size: 40px;
+    }
+
+    .home .home-content .left p {
+        font-size: 16px;
+    }
+
+    .home .home-content .left .btn-group {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .home .home-content .right {
+        width: 30%;
+    }
+
+    .chefs p {
+        font-size: 35px;
+    }
+
+    .chefs .cards {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .chefs .cards .card .card-content h3 {
+        font-size: 25px;
+    }
+
+    .chefs .cards .card .card-image .wave {
+        bottom: -8px;
+        background-image: none;
+    }
+
+    .gallery p {
+        font-size: 35px;
+    }
+
+    .gallery .photos {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .gallery .photos .column .photo {
+        width: 80%;
+    }
+
+    .gallery .photos .column .layer h2 {
+        font-size: 25px;
+    }
+
+    .gallery .photos .column .layer p {
+        font-size: 16px;
+    }
+
+    .contact p {
+        font-size: 35px;
+    }
+
+    .contact .details {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .contact .details>div h3 {
+        font-size: 18px;
+    }
+
+    .contact .details>div p {
+        font-size: 14px;
+    }
+
+    .contact .details>div a {
+        font-size: 14px;
+    }
+
+    .contact form .input-group {
+        flex-direction: column;
+    }
+
+    .footer .container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer .container :is(.about, .contact-details) {
+        width: calc(calc(100% - var(--gap) * 2) / 2);
+
+    }
+
+    .footer .about .logo {
+        font-size: 25px;
+    }
+
+    .footer .about .social-links {
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 5px;
+    }
+
+    .footer .subscription .subscription-group {
+        flex-direction: column;
+    }
+
+    .footer .subscription .quick-links ul {
+        flex-direction: column
+    }
+
+    .footer .contact-details {
+        flex-direction: column;
+    }
+
+}
